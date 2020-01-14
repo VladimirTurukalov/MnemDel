@@ -1,0 +1,4 @@
+line 1 &iexcl;  &iexcl;
+line 2 &cent;    &iexcl;
+line 3 &pound;  &iexcl;
+line 4 &curren;  &iexcl;

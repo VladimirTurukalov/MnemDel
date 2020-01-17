@@ -2,3 +2,5 @@ line 1 &iexcl;  &iexcl;
 line 2 &cent;    &iexcl;
 line 3 &pound;  &iexcl;
 line 4 &curren;  &iexcl;
+
+This line breaks your regular expression & you need to figure out how to fix it; however, I did not expect you to miscalculate it.

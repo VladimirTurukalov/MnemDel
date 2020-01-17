@@ -1,24 +1,28 @@
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class MnemDel {
 
+    // todo: прочитай последнеюю строку в mnem.txt и исправь
+    private static String regEx = "&.*?;";
 
-    public static void func_1(String file){
-        final String regEx = "&.*?;";
-
-        try (Stream<String> stream = Files.lines(Paths.get(file))){
-            stream.map(s -> s.replaceAll(regEx, "*")).forEach(System.out::println);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public static String func_1(Stream<String> stream) {
+        return stream.map(s -> s.replaceAll(regEx, "*")).reduce(String::concat).get();
     }
 
-    public static void main(String[] args) {
-        final String fileName = "/home/vladimir/Documents/Programms/Java/MnemDel/src/main/resources/mnem.txt";
-        func_1(fileName);
-
+    public static String func_2() {
+        return null;
     }
+
+    public static String func_3() {
+        return null;
+    }
+
+    public static String func_4() {
+        return null;
+    }
+
+    public static String func_5() {
+        return null;
+    }
+
 }

@@ -3,7 +3,7 @@ import java.util.stream.Stream;
 public class MnemDel {
 
     // todo: прочитай последнеюю строку в mnem.txt и исправь
-    private static String regEx = "&(\\w|\\d|#){1,};";
+    private static String regEx = "&(\\w|\\d|#)(\\w|\\d){1,};";
 
     public static String func_1(Stream<String> stream) {
         return stream.map(s -> s.replaceAll(regEx, "*")).reduce(String::concat).get();

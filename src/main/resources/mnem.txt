@@ -4,4 +4,9 @@ line 3 &pound;  &iexcl;
 line 4 &curren;  &iexcl;
 
 This line breaks your regular expression & you need to figure out how to fix it; however, I did not expect you to miscalculate it.
+
 line 1 &iexcl; wow, your fix is great!!! &iexcl;
+line 4 &curren;  &iexcl; 
+line 4 &I'm not a mnemonic symbol, I'm a proposal, don't kill me!!!;
+line 4 &/NotMnemonic;
+line 4 &;

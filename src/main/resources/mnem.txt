@@ -16,3 +16,4 @@ line 4 &;
 
 &#9#26; - it's not a mnemonic.
 &#a; - it's not a mnemonic
+&#926a; - it's not a mnemonic.

@@ -15,3 +15,4 @@ line 4 &;
 &#926; - it's a mnemonic.
 
 &#9#26; - it's not a mnemonic.
+&#a; - it's not a mnemonic

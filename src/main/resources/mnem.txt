@@ -13,3 +13,5 @@ line 4 &;
 
 &Xi; - it's a mnemonic.
 &#926; - it's a mnemonic.
+
+&#9#26; - it's not a mnemonic.

@@ -10,3 +10,6 @@ line 4 &curren;  &iexcl;
 line 4 &I'm not a mnemonic symbol, I'm a proposal, don't kill me!!!;
 line 4 &/NotMnemonic;
 line 4 &;
+
+&Xi; - it's a mnemonic.
+&#926; - it's a mnemonic.
